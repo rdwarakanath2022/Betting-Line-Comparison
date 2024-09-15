@@ -40,16 +40,16 @@ model.eval()
 
 # Prepare new input data
 input_data_new = pd.DataFrame({
-    'team1': ['Detroit Lions'],
-    'team2': ['Minnesota Vikings'],
-    'feature_1': [1],
-    'feature_2': [1],
-    'feature_3': [24.0],
-    'feature_4': [10.0],
+    'team1': ['Detroit Lions'], # away team
+    'team2': ['Minnesota Vikings'], # home team
+    'feature_1': [1], # away previous games played
+    'feature_2': [1], # home previous games played
+    'feature_3': [24.0], # 2023 away points per game scored
+    'feature_4': [10.0], # 2023 home points per game scored
     'feature_5': [20.0],
-    'feature_6': [21.8],
-    'feature_7': [38.0],
-    'feature_8': [24.0],
+    'feature_6': [21.8], 
+    'feature_7': [38.0], 
+    'feature_8': [24.0], 
     'feature_9': [10.0],
     'feature_10': [38.0],
     'feature_11': [21.5],
